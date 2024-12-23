@@ -1,5 +1,5 @@
 import { Factory } from "rosie"
-import { faker } from "@faker-js/faker/."
+import { faker } from "@faker-js/faker"
 import { Product } from "../../models/product.model"
 
 export const ProductFactory = new Factory<Product>()
