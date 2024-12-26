@@ -1,4 +1,4 @@
-import express, { Express, NextFunction, Request, Response } from "express";
+import express, { Express } from "express";
 import catalogRouter from "./api/catalog.routes";
 
 const app:Express = express();
